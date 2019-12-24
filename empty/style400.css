@@ -1,0 +1,29 @@
+body{
+
+
+background-color:rgb(209, 167, 167);
+
+}
+
+
+.col{
+border: 2px solid  rgb(75, 136, 40);
+    margin-bottom: 20px;
+}
+
+.col-sm-4{
+
+    border: 2px solid  rgb(106, 40, 136);
+    margin-bottom: 20px;
+
+}
+
+
+.col-6{
+
+    border: 2px solid  rgb(43, 53, 17);
+    margin-bottom: 20px;
+
+
+}
+

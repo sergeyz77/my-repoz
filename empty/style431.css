@@ -1,0 +1,68 @@
+body{
+
+min-width: 320px;
+background-color:rgb(209, 167, 167);
+font-size: 14px;
+color: #626262;
+}
+
+img{
+
+max-width: 100%;
+height: auto;
+
+}
+
+
+
+
+a   {
+    color:#b4ad9e;
+}
+
+a:hover{
+color:#898377 ;
+
+
+}
+
+header  {
+
+background-color:rgb(38, 184, 171);
+
+
+}
+
+header .navbar-brand {
+
+    font-size: 30px;
+    color:rgb(156, 27, 27);
+   
+    }
+
+    header .nav-item{
+
+margin-left:50px;
+text-transform: uppercase;
+
+    }
+
+    header .nav-item a::after{
+
+       content: '';
+       display: block;
+       width: 100%;
+background-color: aqua;
+height: 1px;
+transform: scale(0);
+        
+   transition: all.5s;     
+            }
+
+
+            header .nav-item a:hover::after{
+
+transform: scale(1);
+
+
+            }

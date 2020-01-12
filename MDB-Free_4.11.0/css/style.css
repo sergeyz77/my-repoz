@@ -1,9 +1,4 @@
-body{
 
-
-
-    background-color: rgb(107, 91, 71);
-}
 
 
 html,body,header,#intro{
@@ -17,7 +12,7 @@ height: 100%;
 
 #intro{
 
-background: rgb(214, 196, 255);
+
 
 background:url(../img/iceberg-404966_1920.jpg);
 background-size: cover;

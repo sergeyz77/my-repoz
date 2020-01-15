@@ -1,7 +1,7 @@
 
 
 
-html,body,header,#intro{
+html,body,header{
 
 height: 100%;
 
@@ -10,10 +10,27 @@ height: 100%;
 
 }
 
+
+
+
+
+
 #intro{
 
-
+    height: 85%;
 
 background:url(../img/iceberg-404966_1920.jpg);
 background-size: cover;
+}
+.pt-5{
+
+    padding-top: 2rem!important;
+
+}
+
+.col-md-6{
+
+    margin-top: 4rem!important;
+
+
 }

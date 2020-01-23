@@ -1,7 +1,7 @@
 
 
 
-html,body,header{
+html,body{
 
 height: 100%;
 
@@ -14,9 +14,17 @@ height: 100%;
 
 
 
+header{
+
+    height: 100%;
+    margin-bottom: -60px;
+
+}
+
+
 
 #intro{
-
+ 
     height: 85%;
 
 background:url(../img/iceberg-404966_1920.jpg);

@@ -27,3 +27,28 @@ border: 2px solid  rgb(75, 136, 40);
 
 }
 
+.bd-example-row .row>.col, .bd-example-row .row>[class^=col-] {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background: linear-gradient(#70197a,#651274);
+    border: 1px solid rgb(211, 156, 201);
+    color: white;
+}
+
+
+.my-fc{
+
+   
+        height: 100px;
+        background-color: #351da1;
+        margin-bottom: 20px;
+    
+
+
+}
+
+.my-class .row>.col, .my-class .flex-row>[class^="p-"], .my-class .flex-column>[class^="p-"], .my-class .row>[class^=col-] {
+    background: linear-gradient(#6b7a19,#651274);
+    border: 1px dashed rgb(211, 156, 201);
+    color: white;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: inherit;
+    padding: 20PX;
+}
+h1 {
+
+    color: #8e3b3b;
+}
+/*button{border-left-color: aqua; }*/
+
+button {
+    border-right-color: rgba(27, 159, 118, 0.96);
+}
+h4 {
+    color: #8e3b3b;text-align: center
+}
+td {
+    border: 0px solid #dee3e0;
+    padding: 10px;
+}
+.table mine {
+    padding: 0px 0px 0px 0px;
+    empty-cells: hide;
+}
+.table_1 {
+    empty-cells: show;
+    padding: 0px 0px 0px 43px;
+}
+.table_2 {
+    empty-cells: hide;
+    padding: 0px 0px 0px 50px;
+}
+.block {
+    border: 4mm ridge rgb(170, 50, 220, .6);
+}
+.block p {}
+/*
+.table_2 {align-self: auto
+}*/h4 {
+} 

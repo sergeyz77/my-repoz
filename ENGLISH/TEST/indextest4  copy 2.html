@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>english 4</title>
+	<!-- Подключаем Bootstrap CSS через CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Подключаем style.css -->
+	<link rel="stylesheet" href="test.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+
+	<div class="container">
+		<div class="row">
+
+
+
+			<div class=" col-xs-3  " id="as6"></div>
+			<div class="   col-xs-3 " id="as8"></div>
+			<div class=" col-xs-3  " id="as7"></div>
+			<div class="   col-xs-3 " id="as5"></div>
+		</div>
+	</div>
+
+
+
+	<div class="message" id="hmassage">
+		<a class="hide-message 	" href="#">Скрыть блок через 5 секунд</a>...
+	</div>
+
+	<button id="sd"> word </button><br>
+
+
+
+
+	<div class="container">
+		<div class="row">
+			<div class=" col-xs-3 " id="as"></div>
+			<div class=" col-xs-3 " id="as2"></div>
+			<div class=" col-xs-3 " id="as3"></div>
+			<div class=" col-xs-3 " id="as4"></div>
+
+		</div>
+	</div>
+
+
+
+
+
+	<script>
+		$('.hide-message').click(function (e) {
+			e.preventDefault();
+			var _this = this;
+			setTimeout(function () {
+				$(_this).closest('.message').hide();
+			}, 5000);
+		});
+	</script>
+
+
+
+
+	<script>
+
+		
+
+setTimeout(function () {
+			window.location.reload();
+		}, 6000);
+
+		
+	
+
+
+
+
+		var mass = ["through", "team", "responsible", "produce", "private", "particular", "mind", "keep", "fully",
+			"experience", "except",
+			"due", "die", "develop", "come", "add"
+		];
+
+
+
+
+
+		var inf = mass[Math.floor(Math.random() * mass.length)];
+		var inf2 = mass[Math.floor(Math.random() * mass.length)];
+		var inf3 = mass[Math.floor(Math.random() * mass.length)];
+		var inf4 = mass[Math.floor(Math.random() * mass.length)];
+		var inf5 = mass[Math.floor(Math.random() * mass.length)];
+		var inf6 = mass[Math.floor(Math.random() * mass.length)];
+		var inf7 = mass[Math.floor(Math.random() * mass.length)];
+		var inf8 = mass[Math.floor(Math.random() * mass.length)];
+
+		var z;
+		var setHide= function(z){
+
+$(document).ready(function(){
+
+$(z).fadeOut("slow");
+
+});
+
+}
+
+
+while (inf == inf2) {
+		
+		setHide("#as");
+		break;
+	}
+
+	while (inf2 == inf3) {
+		
+		setHide("#as2");
+		break;
+	}
+
+	while (inf3 == inf4) {
+		
+		setHide("#as4");
+		break;
+	}
+
+	
+	while (inf == inf4) {
+		
+		setHide("#as4");
+		break;
+	}
+
+	while (inf == inf3) {
+		
+		setHide("#as");
+		break;
+	}
+
+		
+	//_____________________________________________
+
+	while (inf5 == inf7) {
+		
+		setHide("#as5");
+		break;
+	}
+
+	while (inf7 == inf8) {
+		
+		setHide("#as7");
+		break;
+	}
+
+	while (inf8 == inf6) {
+		
+		setHide("#as8");
+		break;
+	}
+
+	
+	while (inf5 == inf8) {
+		
+		setHide("#as5");
+		break;
+	}
+
+	while (inf5 == inf6) {
+		
+		setHide("#as6");
+		break;
+	}
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		document.getElementById("as").innerHTML =
+			inf;
+
+		document.getElementById("as2").innerHTML =
+			inf2;
+
+		document.getElementById("as3").innerHTML =
+			inf3;
+		document.getElementById("as4").innerHTML =
+			inf4;
+		document.getElementById("as5").innerHTML =
+			inf5;
+
+		document.getElementById("as6").innerHTML =
+			inf6;
+		document.getElementById("as7").innerHTML =
+			inf7;
+		document.getElementById("as8").innerHTML =
+			inf8;
+
+
+
+
+
+
+		$(document).ready(function () {
+			$("#as").click(function () {
+				$(this).hide("slow");
+			});
+		});
+
+		$(document).ready(function () {
+			$("#as2").click(function () {
+				$(this).hide("slow");
+			});
+		});
+
+		$(document).ready(function () {
+			$("#as3").click(function () {
+				$(this).hide("slow");
+			});
+		});
+
+
+		$(document).ready(function () {
+			$("#as4").click(function () {
+				$(this).hide("slow");
+			});
+		});
+
+		$(document).ready(function () {
+			$("#as5").click(function () {
+				$(this).hide("slow");
+			});
+		});
+
+
+		$(document).ready(function () {
+			$("#as6").click(function () {
+				$(this).hide("slow");
+			});
+		});
+
+
+		$(document).ready(function () {
+			$("#as7").click(function () {
+				$(this).hide("slow");
+			});
+		});
+
+
+		$(document).ready(function () {
+			$("#as8").click(function () {
+				$(this).hide("slow");
+			});
+
+		});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		$(document).ready(function () {
+			$("#sd").click(function () {
+				$("#div1").fadeToggle("slow");
+				$("#div2").fadeToggle("slow");
+				$("#div3").fadeToggle(3000);
+				$("#div4").fadeToggle(3000);
+				$("#div5").fadeToggle("slow");
+				$("#div6").fadeToggle("slow");
+				$("#div7").fadeToggle(3000);
+				$("#div8").fadeToggle(3000);
+				$("#div9").fadeToggle("slow");
+				$("#div10").fadeToggle("slow");
+				$("#div11").fadeToggle(3000);
+				$("#div12").fadeToggle(3000);
+				$("#div13").fadeToggle("slow");
+				$("#div14").fadeToggle("slow");
+				$("#div15").fadeToggle(3000);
+				$("#div16").fadeToggle(3000);
+			});
+		});
+
+
+
+
+		var multiply = function (x, y) {
+
+
+
+
+			return $(document).ready(function () {
+				$(x).click(function () {
+					return y;
+				});
+				$(x).click(function (event) {
+					$("p").html(event.result);
+				});
+			});
+
+
+		}
+
+
+		multiply("#div1", "через,сквозь,насквозь");
+		multiply("#div2", "команда,обьединяться  в команду");
+
+		multiply("#div3", "ответственный");
+		multiply("#div4", "производить,выпускать изделия");
+		multiply("#div5", "частный,личный");
+		multiply("#div6", "конкретный,особый");
+		multiply("#div7", "разум,ум,иметь ввиду");
+		multiply("#div8", "держать,хранить");
+		multiply("#div9", "полностью");
+		multiply("#div10", "опыт,опытность,испытывать");
+		multiply("#div11", "кроме,за исключением того,что");
+		multiply("#div12", "(+to)обусловленный,должный");
+		multiply("#div13", "умирать");
+		multiply("#div14", "развивать,разрабатывать");
+		multiply("#div15", "приходить,прибывать");
+		multiply("#div16", "прибавлять,присоединять");
+
+
+	
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<p> здесь будет перевод</p>
+
+
+
+
+
+
+
+
+	<div class="container" id="cont">
+
+		<div class="row">
+
+
+
+
+			<div class="col-xs-6 " id="div1" style="background-color:rgb(109, 109, 173);display: none;">
+				through</div>
+			<div class="col-xs-6" id="div2" style=" background-color:rgb(109, 109, 173);display: none;">
+				team
+			</div>
+			<div class="col-xs-6" id="div3" style="background-color:rgb(109, 109, 173);display: none;">
+				responsible
+			</div>
+			<div class="col-xs-6" id="div4" style="background-color:rgb(109, 109, 173);display: none;">
+				produce
+			</div>
+
+			<div class="col-xs-6" id="div5" style="background-color:rgb(109, 109, 173);display: none;">
+				private</div>
+			<div class="col-xs-6" id="div6" style="background-color:rgb(109, 109, 173);display: none;">
+				particular
+			</div>
+			<div class="col-xs-6" id="div7" style="background-color:rgb(109, 109, 173);display: none;">
+				mind
+			</div>
+			<div class="col-xs-6" id="div8" style="background-color:rgb(109, 109, 173);display: none;">
+				keep
+			</div>
+
+
+			<div class="col-xs-6" id="div9" style="background-color:rgb(109, 109, 173);display: none;">
+				fully </div>
+
+
+
+			<div class="col-xs-6" id="div10" style="background-color:rgb(109, 109, 173);display: none;">
+				experience
+			</div>
+			<div class="col-xs-6" id="div11" style="background-color:rgb(109, 109, 173);display: none;">
+				except
+			</div>
+			<div class="col-xs-6" id="div12" style="background-color:rgb(109, 109, 173);display: none;">
+				due
+			</div>
+
+			<div class="col-xs-6" id="div13" style="background-color:rgb(109, 109, 173);display: none;">
+				die</div>
+			<div class="col-xs-6" id="div14" style="background-color:rgb(109, 109, 173);display: none;">
+				develop
+			</div>
+			<div class="col-xs-6" id="div15" style="background-color:rgb(109, 109, 173);display: none;">
+				come
+			</div>
+			<div class="col-xs-6" id="div16" style="background-color:rgb(109, 109, 173);display: none;">
+				add
+			</div>
+
+
+
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+	<!-- Подключаем jQuery и Bootstrap JS через CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- <script src="script.js"></script> -->
+
+</body>
+
+</html>
